@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Employee;
+
 
 
 
@@ -26,4 +28,13 @@ public function __construct()
 
     	// return view('addEmployee');
     }
+
+    public function showEmployeesList()
+    {
+
+        $employees = Employee::all();
+        return view('employeesList') -> with('employees',$employees);
+
+    }
+
 }

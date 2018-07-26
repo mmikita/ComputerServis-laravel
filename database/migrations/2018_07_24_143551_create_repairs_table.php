@@ -13,13 +13,17 @@ class CreateRepairsTable extends Migration
      */
     public function up()
     {
+
+    
+
      
 
         Schema::create('repairs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('computerModel');
-            $table->string('descriptionOfTheFault');
+            $table->LONGTEXT('descriptionOfTheFault');
             $table->string('status');
+            $table->LONGTEXT('comment');
             $table->integer('employee_id')->unsigned();
             $table->timestamps();
         });

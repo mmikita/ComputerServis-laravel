@@ -1,0 +1,527 @@
+[
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Aliqua excepteur dolor voluptate mollit. Exercitation eiusmod dolore fugiat deserunt mollit ipsum dolore officia ipsum sint laboris cillum aliquip in. Cillum exercitation ea sint velit ex velit et dolor. Lorem Lorem cupidatat fugiat laboris.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Anim id reprehenderit dolor aute. Ex aliqua cupidatat adipisicing sint. Ullamco reprehenderit minim officia duis sit pariatur dolore amet aliqua. Nostrud ipsum enim esse in occaecat ad in cillum incididunt laborum. Exercitation voluptate deserunt reprehenderit officia quis velit tempor voluptate est pariatur. Eu eu veniam incididunt duis culpa Lorem esse cillum Lorem non ullamco.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "w trakcie naprawy",
+    "comment": "Commodo ex laborum in reprehenderit proident deserunt esse fugiat dolore velit quis veniam est. Nisi reprehenderit cillum commodo mollit qui commodo velit proident veniam ut anim in nostrud. Consectetur ipsum occaecat eu non voluptate nulla fugiat. Lorem esse elit amet commodo et nisi esse exercitation excepteur quis eu Lorem occaecat.",
+    "employee_id": 1
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "w trakcie naprawy",
+    "comment": "Ipsum ullamco nisi irure ex magna nostrud cillum ex irure incididunt. Esse eiusmod proident sunt magna non fugiat officia id cupidatat. Sint ex ut laboris dolor labore amet dolor proident fugiat fugiat.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Magna nisi in reprehenderit duis fugiat eiusmod excepteur esse ullamco reprehenderit qui eiusmod cupidatat ullamco. Aliquip labore non culpa occaecat dolor cupidatat consequat sunt. Laborum qui ex laboris ad mollit minim laborum nostrud. Proident sunt magna reprehenderit est cupidatat pariatur qui enim sunt Lorem adipisicing et. Et occaecat ipsum irure deserunt in. Quis fugiat aute ullamco et reprehenderit cillum non labore aute sint.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Esse culpa nostrud quis eu reprehenderit eiusmod consectetur eiusmod commodo ea esse anim proident. Nulla proident proident do veniam culpa commodo pariatur voluptate eiusmod amet proident cupidatat cupidatat proident. Tempor non laboris commodo dolore cupidatat Lorem deserunt.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Eiusmod id commodo pariatur dolor. Deserunt exercitation minim fugiat ullamco incididunt. Et officia consequat proident amet ea consectetur aliqua. Veniam ipsum enim irure quis non dolore ea pariatur esse fugiat irure. Ea proident duis elit pariatur. Fugiat nisi et sunt aliquip culpa voluptate magna consectetur ad nisi cupidatat eiusmod sint sunt.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Irure Lorem magna irure irure adipisicing qui cillum. Et consequat duis cillum mollit amet. Culpa anim adipisicing aute eiusmod sint labore consequat in id officia commodo voluptate nisi dolore. Nisi exercitation enim qui sint.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "odrzucone",
+    "comment": "In sit Lorem ut sunt ad sit. Velit in eu irure id nisi ad in dolor occaecat et laborum magna sint. Enim tempor eu excepteur officia proident velit ex tempor laborum esse incididunt. Occaecat elit sint dolore deserunt ullamco ipsum cupidatat voluptate nostrud. Id nulla nostrud nisi tempor quis.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Non ad sunt consectetur adipisicing reprehenderit. Voluptate laboris deserunt pariatur ad. Voluptate ex sunt eu eiusmod.",
+    "employee_id": 1
+  },
+  {
+    "computerModel": "dell latitude 6230",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "w trakcie naprawy",
+    "comment": "Excepteur ut eu dolor ullamco excepteur nostrud culpa do consectetur pariatur elit consectetur. Nostrud culpa sunt magna ipsum excepteur id laborum sit. Nisi consectetur officia cupidatat incididunt enim proident veniam in ut in. Excepteur laborum id officia minim est fugiat duis. Non commodo in eiusmod Lorem duis sunt pariatur. Cillum cupidatat sunt culpa proident reprehenderit.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "w trakcie naprawy",
+    "comment": "Voluptate deserunt ipsum proident esse do anim incididunt nisi sunt voluptate occaecat ut in. Officia aliquip aliquip nulla aliquip incididunt. Quis Lorem enim voluptate proident eu irure consectetur elit reprehenderit tempor reprehenderit laboris labore veniam. Adipisicing fugiat ad eiusmod consectetur in culpa esse.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "dell latitude 6230",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Culpa occaecat eu incididunt irure. Officia amet enim velit anim aliquip. Commodo occaecat ut minim qui Lorem deserunt aute laboris magna labore deserunt sunt. Aute irure aliqua in elit incididunt nisi qui incididunt ipsum ipsum mollit incididunt qui laboris. Ex exercitation nostrud qui cillum irure eiusmod esse cupidatat ipsum ea commodo nulla culpa. Officia velit consequat deserunt minim. Aute labore aliquip in elit dolore ea excepteur anim in.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Nulla esse laborum quis velit. Culpa sunt qui aute dolor amet exercitation ut exercitation laboris reprehenderit anim incididunt do. Culpa ad ullamco eiusmod irure deserunt culpa eiusmod laborum sunt anim nisi. Ut in Lorem officia labore laborum non aliqua ea dolore ea est.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Consectetur Lorem consectetur reprehenderit duis est non mollit. Pariatur laboris qui labore qui nulla officia. Aute qui excepteur fugiat in laborum consequat sit amet enim enim sint cupidatat voluptate consectetur. Excepteur excepteur consequat dolore elit et duis et amet labore et et. Sit consequat non dolore culpa laboris cupidatat ut nostrud ea officia. Commodo enim est reprehenderit labore magna elit mollit mollit tempor veniam sit ex nulla.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Laborum fugiat minim pariatur consectetur irure elit qui fugiat do reprehenderit aute nulla ea id. Minim Lorem dolor aliqua dolor. Tempor amet do eiusmod in tempor aliqua anim id ea amet quis. Commodo labore est incididunt consectetur laboris irure sit.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Quis ullamco labore eiusmod exercitation labore commodo enim elit aliquip id ea. Lorem adipisicing labore Lorem cillum exercitation ipsum elit magna. Non deserunt adipisicing non culpa duis consequat excepteur laborum. Ullamco ullamco nostrud consequat ut. Occaecat sunt consequat irure exercitation.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "odrzucone",
+    "comment": "Mollit consectetur proident laborum duis est duis mollit commodo ipsum minim aute. Id ea tempor anim eiusmod Lorem deserunt occaecat cillum reprehenderit enim. Anim non ipsum cupidatat ad et id quis laborum sunt pariatur in. Ad cupidatat veniam sit sint laborum veniam est velit nisi laborum est irure sint culpa. Nulla est minim ex enim cupidatat ea deserunt aliqua consequat voluptate qui fugiat minim cupidatat. Cillum velit laboris consequat tempor qui pariatur pariatur enim magna consectetur.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "dell latitude 6230",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Dolor ipsum reprehenderit ex anim nulla officia et quis nisi. Pariatur ipsum magna proident pariatur laboris culpa duis irure do. Commodo ut laboris occaecat id officia quis dolor qui esse. Culpa anim exercitation tempor sunt do aliquip in nulla ipsum non velit mollit. Aliqua cillum tempor ipsum sint officia tempor consequat irure cillum do. Exercitation consectetur nostrud voluptate fugiat Lorem ea nisi ut.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Sunt laborum tempor mollit anim et enim aute ea veniam exercitation ad aliquip enim. Minim excepteur adipisicing nisi mollit. Sunt Lorem velit ipsum aute. Qui nulla ea minim in duis.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Est laborum mollit excepteur id adipisicing ea. Ullamco labore voluptate cupidatat culpa quis sunt velit ipsum eiusmod consectetur est consequat anim. Ut laboris ex nisi Lorem tempor qui. Officia elit excepteur magna incididunt ex magna.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Eiusmod veniam laborum cillum mollit voluptate Lorem id ex irure cillum excepteur fugiat aliquip reprehenderit. Exercitation aliquip dolore adipisicing adipisicing ut occaecat cillum commodo minim nostrud consectetur labore. Minim velit veniam exercitation nostrud anim anim est eu pariatur nisi. Tempor est proident commodo consequat labore amet aliquip magna dolore aliqua elit quis ipsum.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Quis ullamco magna exercitation consectetur labore nostrud labore mollit officia veniam duis commodo excepteur. Exercitation reprehenderit incididunt voluptate labore reprehenderit qui est occaecat aliqua sit cupidatat. Nostrud pariatur duis culpa pariatur dolor velit dolor Lorem nulla. Aute ullamco labore veniam anim Lorem eiusmod veniam cupidatat. Incididunt labore dolor anim deserunt dolore tempor labore occaecat amet laboris commodo non. Esse proident laboris elit esse tempor anim sit irure ut aute. Aliquip et incididunt deserunt officia et magna anim laborum ullamco amet.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Tempor nisi velit consequat ad laborum voluptate do fugiat culpa consectetur reprehenderit aute qui anim. Lorem et enim Lorem voluptate nisi nulla quis duis non. Lorem proident ex laborum cupidatat in laborum.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Magna qui est ut aute. Enim voluptate cupidatat in non ut deserunt aute irure tempor commodo. Aliqua nulla est consectetur tempor laborum cillum proident.",
+    "employee_id": 1
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujace na odbiór",
+    "comment": "Ea cillum amet veniam ut. In laborum qui occaecat esse magna quis aliqua sunt labore esse. Amet velit cillum cupidatat labore do aliquip irure ullamco anim sunt consectetur proident. Incididunt est ex velit esse aute magna proident ea est duis sunt nulla consectetur sint.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Do fugiat eu dolor proident laboris mollit in. Et reprehenderit ut nostrud laboris cillum esse proident reprehenderit. Consequat duis sint sit est excepteur dolore mollit dolore. Cillum nostrud in adipisicing qui. Tempor dolore ullamco anim duis non nisi qui deserunt aliqua sint ex eu pariatur cillum. Cupidatat amet officia sint mollit esse sint occaecat minim occaecat eu aliquip ipsum aute. Reprehenderit tempor in elit ad quis sint enim officia elit cillum.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na odbiór",
+    "comment": "Cillum ex aliqua et proident. Cupidatat laborum eiusmod exercitation deserunt cillum. Ut deserunt excepteur non adipisicing adipisicing cupidatat sunt sint eiusmod officia laborum. Lorem est eiusmod tempor fugiat excepteur deserunt excepteur anim eu mollit anim et quis. Ipsum deserunt sint eiusmod Lorem dolor ex officia voluptate deserunt ullamco. Ad eu sint proident aute magna dolore velit minim occaecat consequat. Minim et magna nostrud sint ipsum elit laborum esse esse ex.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "oczekujace na odbiór",
+    "comment": "Non ea esse sit ea commodo ullamco. Dolor minim sint ea officia ea excepteur eiusmod pariatur nulla ullamco id cillum quis. Nulla consequat dolore consequat ad consequat exercitation enim ad eiusmod dolore. Quis aliquip enim nostrud ad et nisi mollit officia occaecat. Sint eiusmod magna in labore magna exercitation id non adipisicing ad qui adipisicing sit. Ea fugiat dolor consectetur labore.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "odrzucone",
+    "comment": "Eu excepteur in minim eu in irure occaecat. Ipsum consectetur ea commodo in. Ullamco Lorem mollit et et dolor occaecat incididunt do sit. Labore ea ad ea cupidatat et ad tempor dolor id. Minim eu nisi voluptate velit sint proident adipisicing dolore adipisicing occaecat minim.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Tempor sunt amet non velit veniam aliquip adipisicing. Magna veniam magna eiusmod reprehenderit est amet cupidatat in dolor mollit ut reprehenderit elit cillum. Labore incididunt id proident aliqua dolore in veniam enim reprehenderit sunt ut excepteur consectetur. In quis commodo est duis ullamco mollit do voluptate nisi. Culpa excepteur velit duis sunt tempor.",
+    "employee_id": 4
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Dolor id sunt officia laborum ut eiusmod. Anim elit laboris ipsum ad dolor commodo ad commodo esse. Deserunt incididunt proident pariatur irure nisi consectetur laborum aliqua magna aliqua mollit. Velit esse ut commodo occaecat aute reprehenderit. Dolor mollit nisi dolor adipisicing labore ipsum dolor dolor sunt. Est elit incididunt ipsum cupidatat et deserunt aliquip pariatur mollit nisi dolor aliqua. Elit labore culpa velit cupidatat laboris laborum dolore excepteur sunt ullamco quis labore reprehenderit aute.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Ad aute nostrud consequat labore culpa. Esse excepteur labore Lorem adipisicing ipsum culpa. Sunt dolor nisi reprehenderit nostrud ullamco id veniam commodo anim.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Ut consectetur occaecat incididunt ut pariatur cillum occaecat. Duis et do laborum minim id aliquip occaecat est. Dolor velit laboris reprehenderit et nostrud aliqua nostrud sit aute. Laborum laborum dolore mollit Lorem amet enim enim esse magna. Ullamco aliqua ad velit labore sit ad irure. Non reprehenderit elit do mollit cillum proident deserunt adipisicing mollit nisi ullamco consectetur qui sint. Cupidatat do cillum duis esse enim sunt.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Consequat irure irure cillum culpa dolor ad aliqua laborum. Officia Lorem proident minim nulla est magna. Esse in in veniam deserunt voluptate cillum duis.",
+    "employee_id": 4
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "w trakcie naprawy",
+    "comment": "Id dolore fugiat laborum nostrud ea incididunt culpa. In commodo qui adipisicing ipsum nostrud officia est sunt. Incididunt nisi sint eiusmod eu laborum voluptate.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Duis aliqua ea qui esse mollit. Ut reprehenderit Lorem reprehenderit eu ut mollit qui irure dolor ullamco officia commodo. Est eiusmod quis ex nulla id tempor amet anim proident ad. Proident in adipisicing anim mollit excepteur laboris deserunt ullamco cillum et. Sunt Lorem do id nisi aute tempor incididunt veniam aute ea nulla ex aliquip aliquip. Sunt et laborum enim adipisicing nisi eu culpa irure excepteur non nostrud qui ad sint. Adipisicing qui commodo ut laborum ut aliqua ad veniam elit voluptate excepteur ea.",
+    "employee_id": 1
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Minim ullamco occaecat cupidatat et id do eu amet laborum quis cillum duis non ex. Proident cupidatat proident elit esse. Ut quis id voluptate fugiat aute cillum mollit. Ad dolore ad nulla ullamco consectetur elit nisi nisi sit.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Magna eiusmod mollit non mollit quis duis reprehenderit consequat. Dolore et incididunt magna ad enim laborum quis culpa aliquip laborum non. Officia consectetur duis id fugiat ut. Voluptate cupidatat id ut laborum. Elit non non laborum anim commodo. Eiusmod ad ad culpa cupidatat proident quis consequat elit quis nisi. Do nisi qui reprehenderit dolor.",
+    "employee_id": 4
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Deserunt ipsum incididunt ut enim elit aliquip laboris est ullamco duis ea. In consectetur est officia consectetur et esse proident esse anim aliquip. Est sit veniam proident est sunt ad mollit sunt mollit dolor tempor. Culpa officia cupidatat aute sint dolor do do qui est incididunt cupidatat aute magna culpa. Laboris consequat velit non est irure.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Laboris irure dolore fugiat officia cupidatat. Laboris irure elit id veniam consectetur consectetur sunt veniam. Consequat voluptate elit duis duis eiusmod dolor tempor proident ullamco.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "odrzucone",
+    "comment": "Id laboris irure ad quis occaecat proident nulla labore mollit id dolor anim. Sit pariatur elit eu laboris occaecat. Exercitation reprehenderit nisi dolor nulla consequat. Nulla nulla ut irure consequat magna deserunt excepteur sit in nostrud exercitation anim officia. Eiusmod mollit Lorem exercitation officia ipsum elit excepteur cillum culpa. Qui amet eiusmod elit fugiat magna ipsum consectetur ea irure. Ullamco irure veniam proident anim ullamco est.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "odrzucone",
+    "comment": "Excepteur amet velit incididunt excepteur ullamco minim. Aute fugiat mollit enim reprehenderit cillum eiusmod aliquip enim. Pariatur magna cillum pariatur ipsum aliquip ad elit esse laborum excepteur dolore minim exercitation. Commodo nostrud ex aliqua voluptate id. Tempor tempor eu dolore elit proident culpa. Anim anim occaecat do esse aliquip nisi in consectetur nulla in proident tempor commodo reprehenderit. Est id cupidatat pariatur dolor est dolor nulla Lorem.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Cillum nostrud minim non sint sunt. Est amet voluptate non in tempor do tempor eiusmod exercitation. Velit qui anim aute ullamco aliqua dolore et.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Dolore magna fugiat nulla fugiat dolor in nulla reprehenderit dolor excepteur eiusmod ullamco elit. Aliqua fugiat mollit voluptate anim duis culpa nulla. Do ipsum pariatur fugiat qui consectetur excepteur exercitation enim.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "oczekujace na odbiór",
+    "comment": "Velit veniam proident voluptate minim commodo qui. Nisi adipisicing nulla id culpa aute veniam. Magna quis sint amet esse. Eu sunt aliqua Lorem elit deserunt Lorem. Nulla culpa labore nulla veniam aliquip quis veniam sit exercitation. Qui deserunt enim ullamco aliquip incididunt laboris qui veniam.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Pariatur quis laboris Lorem eiusmod adipisicing eu. Enim incididunt elit eu velit proident. Quis mollit culpa esse cillum eu elit est commodo reprehenderit duis aute veniam eiusmod. Dolor cillum ea mollit et sunt pariatur anim dolor ex. Nostrud elit elit anim dolore labore non.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujące na zatwierdzenie",
+    "comment": "Est sint amet ad minim tempor voluptate tempor incididunt magna mollit occaecat deserunt. In veniam aliquip eiusmod duis esse proident commodo ex proident quis. Aute do incididunt eiusmod pariatur occaecat. Ea quis culpa amet fugiat cillum ea nulla mollit est esse excepteur aliqua.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "w trakcie naprawy",
+    "comment": "Id mollit aliqua tempor cillum aute exercitation fugiat consequat fugiat. Ex laborum ex tempor esse sint sint amet quis et veniam. Nisi dolor incididunt cillum occaecat proident exercitation commodo. Minim est aliqua Lorem ad culpa.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Excepteur consequat voluptate incididunt consequat aliquip amet cupidatat tempor laboris tempor mollit cupidatat ullamco veniam. Enim culpa nostrud nostrud commodo aliquip id minim eiusmod ea cupidatat. Et ut qui laboris incididunt adipisicing aute voluptate mollit ullamco.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "oczekujace na odbiór",
+    "comment": "Nostrud dolor anim veniam aliqua proident tempor nostrud officia mollit minim nisi fugiat. Eiusmod enim proident irure sit eu incididunt proident. Irure aute aliquip labore consectetur officia quis ullamco ex do. Sunt occaecat nulla velit ea minim.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "dell latitude 6230",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Ipsum qui ea reprehenderit irure Lorem sit sint nisi deserunt Lorem ea est amet. Dolore consectetur cillum eiusmod irure ullamco id culpa laboris. Officia veniam adipisicing veniam nisi elit deserunt ut nulla Lorem ullamco duis commodo. Ut sit quis elit ex veniam consectetur dolor sunt anim incididunt consectetur do ipsum. Qui occaecat nostrud laboris laboris.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na odbiór",
+    "comment": "Ad Lorem excepteur exercitation commodo velit deserunt cupidatat. Magna sunt officia amet irure dolore eu quis pariatur nulla enim consequat. Nisi minim excepteur minim cupidatat amet commodo do esse labore consequat nisi irure eu.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "oczekujace na odbiór",
+    "comment": "Eiusmod ea fugiat minim do elit qui ea cupidatat. Ex eiusmod ad ipsum pariatur ullamco aliqua sunt exercitation nostrud deserunt et pariatur incididunt. Reprehenderit consequat mollit adipisicing aute adipisicing ad tempor mollit Lorem velit. Nulla sit adipisicing sunt do laboris. Elit ullamco laboris amet do enim irure proident. Exercitation aliqua ea sit officia sint fugiat. Eu occaecat labore aliqua excepteur eu enim irure reprehenderit et ullamco velit et ullamco.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "dell latitude 6230",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Adipisicing deserunt pariatur aliquip aliqua et ipsum in cillum sint. Nisi esse officia deserunt cillum deserunt elit sint voluptate. Sunt est ex ea dolore nulla tempor esse nostrud dolor cupidatat. Nulla velit nisi excepteur occaecat culpa qui sint sint velit duis sunt. Nisi voluptate exercitation ipsum sunt culpa. Aute in ad consequat amet ullamco ex. Do enim deserunt laboris proident elit ullamco fugiat sit.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "odrzucone",
+    "comment": "Culpa aute culpa esse nulla et aliqua esse et esse adipisicing minim ut laborum duis. Deserunt nostrud eu officia nisi dolor minim amet reprehenderit Lorem. Nostrud sunt reprehenderit sint veniam aliqua id. Qui ad minim et proident commodo eu magna laboris duis elit pariatur nostrud. Veniam et proident officia esse fugiat nulla mollit sint consequat aliqua exercitation exercitation proident occaecat. Magna Lorem et velit laborum qui. Voluptate incididunt eiusmod deserunt deserunt enim eu ad ea.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Officia et et culpa ad laborum eu mollit id eu voluptate eiusmod Lorem irure. Sunt consequat eu veniam eu. Proident nostrud laborum ex eiusmod sunt.",
+    "employee_id": 4
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Mollit sunt esse aute eu aliqua tempor incididunt sint laboris laborum aliquip aliquip. Officia anim duis exercitation minim do exercitation excepteur. Magna commodo qui laborum nostrud eu. Qui exercitation commodo fugiat reprehenderit ex adipisicing quis enim labore cupidatat in. Sunt labore sunt eu aliqua sint amet. Sint enim occaecat est ad. Duis incididunt pariatur anim aute incididunt commodo.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Id irure officia elit magna fugiat sint aliqua elit. Sunt sint et amet officia. Commodo ea tempor dolore aliqua nulla ea exercitation qui quis commodo. Lorem culpa aute anim laborum nostrud minim mollit dolor nisi veniam ea. Officia laboris qui excepteur occaecat eu et minim aliquip velit amet incididunt esse ex. Veniam laborum dolore occaecat exercitation enim tempor cupidatat. Ut elit commodo culpa dolore aute Lorem labore esse laboris est ea.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Amet consequat labore sunt dolore minim ex ullamco culpa irure dolore. Quis voluptate enim laborum ea veniam nostrud reprehenderit elit adipisicing velit veniam. Dolore reprehenderit nulla mollit aute id dolor consequat minim in exercitation. Tempor deserunt cupidatat id adipisicing adipisicing. Sint eiusmod ea ullamco mollit reprehenderit cupidatat deserunt quis ut laborum anim aliqua.",
+    "employee_id": 4
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Commodo aliquip adipisicing proident fugiat culpa. Sit velit excepteur excepteur incididunt ad laborum ullamco aute Lorem aliqua nulla voluptate. Ullamco laboris dolor aliqua nisi deserunt anim culpa duis. Dolor proident irure cupidatat commodo dolor est veniam culpa. Sunt exercitation dolore sit quis minim nostrud eu consequat duis reprehenderit qui voluptate cillum. Ullamco in dolor minim reprehenderit cillum culpa consectetur nulla. Deserunt deserunt labore proident elit sunt.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Excepteur dolor mollit qui sit laboris enim id quis sit laborum irure non. Do culpa labore amet irure officia proident. Aliqua dolore commodo eiusmod proident esse enim enim tempor nulla eu occaecat in voluptate.",
+    "employee_id": 2
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Sunt eiusmod aliquip Lorem mollit pariatur officia ad sint fugiat sint anim anim. Dolor aliqua aute minim sit eu pariatur commodo id nulla non voluptate. Aliquip enim culpa dolor sint do aliquip dolor. Velit officia occaecat ex culpa in ea qui mollit pariatur laboris. Velit ut culpa aliquip elit id.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Eu commodo mollit aute sit sunt nisi dolor occaecat exercitation anim et id dolor. Do enim ipsum aute tempor laboris deserunt nulla occaecat ad laborum duis. Aliquip esse laboris incididunt dolor sunt ad ullamco veniam culpa ex velit sit.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "laptop lenovo 500",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "w trakcie naprawy",
+    "comment": "Proident dolor est consequat nisi. Elit aliquip minim id commodo officia dolor laboris eiusmod id Lorem commodo eiusmod. Incididunt laboris ad id ea. Ullamco magna id anim id non nisi cillum. Aute tempor mollit ut qui aliqua non veniam nisi velit ea. Laborum duis irure nulla aliqua. Ipsum velit velit proident id sint sit tempor nisi pariatur tempor elit incididunt nisi excepteur.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Dolore aute occaecat est ex amet ut elit sit irure reprehenderit exercitation et. Laborum ea ea velit laboris dolore laborum mollit in veniam aliquip. Veniam laboris anim deserunt adipisicing ex. Minim exercitation anim elit aliquip deserunt qui aliqua cupidatat voluptate reprehenderit dolor pariatur aliquip. Do sit nisi nulla aliquip ullamco ullamco. Amet et culpa ullamco in reprehenderit dolor dolore proident.",
+    "employee_id": 6
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Ex consectetur ullamco officia occaecat reprehenderit aute sunt velit anim eu dolor sit. Duis proident commodo ullamco minim aliqua amet exercitation. Cillum id minim eiusmod cillum ad amet voluptate amet pariatur excepteur eu ipsum. Aute minim esse id sunt mollit ut anim ullamco. Enim labore tempor dolor cillum commodo occaecat est sint do.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "dell latitude 6230",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Culpa consectetur est officia tempor. Commodo esse culpa nulla mollit aliqua anim commodo commodo veniam aliquip duis. Elit est proident dolor magna ipsum consectetur proident. Nisi dolor aliquip cillum est aliqua anim. Occaecat ea dolor consectetur mollit.",
+    "employee_id": 3
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "oczekujace na przydział pracownika",
+    "comment": "Tempor aliquip quis fugiat elit esse enim officia commodo est irure culpa. Dolor tempor labore culpa reprehenderit proident laborum mollit irure ut esse quis culpa. Ut excepteur aute aliqua cupidatat est. Nisi amet ipsum proident dolor dolor mollit cillum irure nostrud.",
+    "employee_id": 1
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "odrzucone",
+    "comment": "Officia ea anim proident et amet dolore laborum quis magna dolor quis culpa velit nulla. Quis officia ex aliquip nisi incididunt commodo deserunt aliquip. Ea laborum voluptate ea et id pariatur est reprehenderit ea qui pariatur nostrud. Deserunt officia do laborum quis nisi veniam qui dolore ipsum sit excepteur fugiat commodo. Cupidatat dolore id magna deserunt ipsum fugiat ipsum sunt aute consequat voluptate laboris adipisicing. Qui dolore sunt aute proident. Sint veniam nisi veniam culpa.",
+    "employee_id": 7
+  },
+  {
+    "computerModel": "laptop dell inspirion 1430",
+    "descriptionOfTheFault": "sam się wyłącza",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Est mollit labore enim consequat ea labore nisi qui consectetur tempor. Consequat consequat sint id nulla exercitation excepteur duis sint velit ipsum enim anim. Dolor aute aliqua quis proident nulla aliquip eiusmod pariatur sint dolore aliqua fugiat veniam cupidatat. Enim velit dolor ullamco labore aliquip. Culpa sit quis in ut laborum sit. Commodo anim laboris ullamco culpa occaecat do occaecat pariatur laborum.",
+    "employee_id": 4
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "wolno dziala",
+    "status": "naprawione-oczekujace na odbiór",
+    "comment": "Aliqua cillum eiusmod aliqua pariatur dolor elit cupidatat enim tempor. Adipisicing sunt ex aliqua minim veniam. Deserunt nulla adipisicing ea aliquip id ut eu aliqua et anim aute proident proident dolor. Consequat laborum exercitation non duis incididunt. Culpa enim culpa enim sint labore ullamco sit commodo laborum duis anim minim cillum.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "samsung NP530u",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "w trakcie naprawy",
+    "comment": "Nulla velit cupidatat duis consectetur minim. Officia cupidatat occaecat nulla ex incididunt tempor. Anim eiusmod reprehenderit eu sunt reprehenderit ipsum Lorem aliqua Lorem officia consequat pariatur. Labore sint exercitation elit veniam duis reprehenderit fugiat elit ut. Culpa do eiusmod consequat commodo fugiat id ea et veniam officia.",
+    "employee_id": 5
+  },
+  {
+    "computerModel": "Asus X550",
+    "descriptionOfTheFault": "nie wlacza sie",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Culpa proident ex enim veniam et esse consequat consequat ut. Ut tempor mollit velit laboris cillum commodo magna esse anim commodo amet. Cillum sunt duis aliquip reprehenderit incididunt sint mollit irure eiusmod qui dolore pariatur esse officia.",
+    "employee_id": 1
+  },
+  {
+    "computerModel": "stacjonarny dell 230",
+    "descriptionOfTheFault": "wydaje dziwne odgłosy",
+    "status": "nieoczekiwany problem podczas naprawy",
+    "comment": "Adipisicing ad magna in cillum ex. Dolore voluptate nostrud velit laborum aliqua consequat exercitation ad fugiat. Esse amet nulla nisi laboris enim ea pariatur minim mollit id commodo. Tempor aliquip consectetur magna laboris laboris do ex aliqua voluptate dolore.",
+    "employee_id": 2
+  }
+]

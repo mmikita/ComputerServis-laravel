@@ -11,19 +11,22 @@ class RepairsTableSeeder extends Seeder
      */
     public function run()
     {
-      for ($i=0; $i < 5; $i++) { 
-        $Repair = new \App\Repair();
-        $Repair-> employee_id = $i;
-        $Repair-> computerModel = 'Model nr.'.$i;
-        $Repair-> descriptionOfTheFault = 'to jest problem nr.'.$i;
-        $Repair-> status = 'status nr'.$i;
-        $Repair -> save();     
-           }  
-  $Repair = new \App\Repair();
-        $Repair-> employee_id = 2;
-        $Repair-> computerModel = 'Model nr.';
-        $Repair-> descriptionOfTheFault = 'to jest problem nr.';
-        $Repair-> status = 'status nr';
+
+    $path = resource_path() .'\json\generateRepairs.json'; 
+        $json = json_decode(file_get_contents($path), true); 
+        $string = file_get_contents($path);
+        $string = preg_replace("/[\r\n]+/", " ", $string);
+        $array = json_decode($string, true);
+        foreach ($array as $r)
+        {
+    $Repair = new \App\Repair();
+        $Repair-> employee_id = $r['employee_id'];
+        $Repair-> computerModel = $r['computerModel'];
+        $Repair-> descriptionOfTheFault = $r['descriptionOfTheFault'];
+        $Repair-> status = $r['status'];
+        $Repair-> comment = $r['comment'];
         $Repair -> save();  
+        }
+
     }
 }
