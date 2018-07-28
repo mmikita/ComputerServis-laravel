@@ -18,7 +18,7 @@ protected $table = 'employees';
 * @var array
 */
 protected $fillable = [
-'email', 'password',
+'email', 'password', 'role'
 ];
 /**
 * The attributes that should be hidden for arrays.

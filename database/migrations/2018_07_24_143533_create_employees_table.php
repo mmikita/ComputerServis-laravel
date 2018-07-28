@@ -19,6 +19,7 @@ class CreateEmployeesTable extends Migration
             $table->string('lastName');
             $table->string('password');
             $table->string('email');
+            $table->string('role');
             $table->string('phoneNumber');
             $table->rememberToken();
             $table->timestamps();

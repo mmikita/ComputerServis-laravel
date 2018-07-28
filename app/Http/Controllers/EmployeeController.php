@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Middleware\Admin;
 use App\Employee;
 
 
@@ -13,7 +14,7 @@ class EmployeeController extends Controller
 
 public function __construct()
 {
-	$this->middleware('auth');
+	$this->middleware([Admin::class, 'auth']);
 }
 
 
@@ -24,9 +25,8 @@ public function __construct()
 
      public function addEmployee()
     {
-    	echo "nic tu nie ma";
-
-    	// return view('addEmployee');
+    	
+        return view('auth/register');
     }
 
     public function showEmployeesList()
