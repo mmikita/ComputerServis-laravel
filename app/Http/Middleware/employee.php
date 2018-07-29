@@ -13,9 +13,10 @@ class Employee
      * @param  \Closure  $next
      * @return mixed
      */
-       public function handle($request, Closure $next)
+    public function handle($request, Closure $next)
     {
-        if ($request->user() && $request->user()->role != 'employee')
+        if 
+         ($request->user() && ($request->user()->role != 'admin'||$request->user()->role != 'employee'))
         {
             return redirect('');
         }

@@ -7,35 +7,26 @@
             <div class="card">
                 <div class="card-header">{{ __('Rejestracja') }}</div>
 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}" aria-label="{{ __('Register') }}">
+                    <form method="POST" action="/admin/addEmployee" aria-label="{{ __('Register') }}">
                         @csrf
 
-                        <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Imie') }}</label>
+                   <div class="form-group row">
+                            <label for="firstName" class="col-md-4 col-form-label text-md-right">{{ __('Imie') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
+                                <input id="firstName" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="firstName" value="{{ old('email') }}" required>
 
-                                @if ($errors->has('name'))
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('name') }}</strong>
-                                </span>
-                                @endif
+                    
                             </div>
                         </div>
 
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nazwisko') }}</label>
+                            <label for="lastName" class="col-md-4 col-form-label text-md-right">{{ __('Nazwisko') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
+                                <input id="lastName" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="lastName" value="{{ old('name') }}" required autofocus>
 
-                                @if ($errors->has('name'))
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('name') }}</strong>
-                                </span>
-                                @endif
                             </div>
                         </div>
 
@@ -47,13 +38,19 @@
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
 
-                                @if ($errors->has('email'))
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('email') }}</strong>
-                                </span>
-                                @endif
+                    
                             </div>
                         </div>
+
+   <div class="form-group row">
+                            <label for="phoneNumber" class="col-md-4 col-form-label text-md-right">{{ __('Numer telefonu') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="phonNumber" name='phoneNumber' type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
+
+                            </div>
+                        </div>
+
 
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Hasło') }}</label>
@@ -80,9 +77,9 @@
                         <div class="form-group row">
                             <label class="col-md-4 col-form-label text-md-right">Rola</label>
                             <div  class="col-md-6">
-                                <select class="form-control"  name=role id=”role>
-                                    <option value=”employee”>pracownik</option>
-                                    <option value=”admin”>administrator</option>
+                                <select class="form-control"  name='role' id=”role>
+                                    <option value='employee'>pracownik</option>
+                                    <option value='admin'>administrator</option>
                                 </select>
                             </div>
                         </div>

@@ -5,6 +5,8 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Facades\Hash;
+
 
 
 class employee extends Authenticatable 
@@ -18,7 +20,7 @@ protected $table = 'employees';
 * @var array
 */
 protected $fillable = [
-'email', 'password', 'role'
+'firstName', 'lastName', 'email', 'password', 'role', 'phoneNumber'
 ];
 /**
 * The attributes that should be hidden for arrays.
@@ -31,6 +33,11 @@ protected $hidden = [
 public function getAuthPassword()
 {
 return $this->password;
+}
+
+public function setPasswordAttribute($value)
+{
+    $this->attributes['password'] = Hash::make($value);
 }
     public function repair()
 {

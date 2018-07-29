@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Middleware\Admin;
 use App\Employee;
+use Illuminate\Support\Facades\Input;
+
 
 
 
@@ -27,6 +29,24 @@ public function __construct()
     {
     	
         return view('auth/register');
+    }
+     
+
+    /**
+     * Create a new user instance after a valid registration.
+     *
+     * @param  array  $data
+     * @return \App\User
+     */
+      public function store()
+    {
+
+      // $password = bcrypt(Input::get('password'));
+        
+        $employee = Employee::create(request(['firstName', 'lastName', 'password', 'email', 'role', 'phoneNumber']));
+
+
+        //return view('');
     }
 
     public function showEmployeesList()
