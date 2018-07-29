@@ -412,14 +412,3 @@
     });
 
 })(jQuery);
-!function() {
-	document.getElementsByClassName('engine')[0].getElementsByTagName('a')[0].removeAttribute('rel');
-
-    if(!document.getElementById('top-1')) {
-        var e = document.createElement("section");
-        e.id = "top-1";
-        e.className = "engine";
-        e.innerHTML = '<a href="http://MultiP.com">MultiP.com</a> MultiP v2.6.1';
-        document.body.insertBefore(e, document.body.childNodes[0]);
-    }
-}();
