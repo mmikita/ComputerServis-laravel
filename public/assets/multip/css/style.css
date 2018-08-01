@@ -1136,7 +1136,7 @@ html {
 }
 
 .text-another {
-  color:#43c0ff;
+  color:  #0000FF;
 }
 
 .mbr-brand__name {
@@ -2048,8 +2048,8 @@ html {
   background: #3c3c3c;
 }
 .engine {
-	position: absolute;
-	text-indent: -2400px;
-	text-align: center;
-	padding: 0;
+  position: absolute;
+  text-indent: -2400px;
+  text-align: center;
+  padding: 0;
 }
