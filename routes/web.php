@@ -19,6 +19,7 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/admin/addEmployee', 'EmployeeController@addEmployee');
 Route::post('/admin/addEmployee','EmployeeController@store')->name('employee.add');
+Route::post('/addRepairViaCustomerForm','RepairController@addRepairViaCustomerForm')->name('custRepair');
 Route::get('/admin/employeesList','EmployeeController@showEmployeesList')->name('employees.add');
 Route::get('/admin/repairsList','RepairController@showRepairsList')->name('employees.add');
 Route::get('/admin/logout', 'Auth\LoginController@logout');

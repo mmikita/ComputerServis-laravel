@@ -34,9 +34,22 @@
 </head>
 <body>
 
+
+
 <section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse" id="menu-74">
     <div class="mbr-navbar__section mbr-section">
         <div class="mbr-section__container container">
+          @if(Session::has('flash_message'))
+<div style="margin-bottom: 0px" class = 'alert alert-success'>
+{{Session::get('flash_message')}}
+@php
+  Session::flush();  
+@endphp
+
+<button type="button" class="close" data-dismiss='alert' aria-hidden='true'>&times;</button>
+</div>
+
+@endif
             <div class="mbr-navbar__container">
                 <div class="mbr-navbar__column mbr-navbar__column--m mbr-navbar__brand">
                     <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
@@ -73,7 +86,7 @@
     <div class="mbr-section__container container">
         <div class="mbr-footer mbr-footer--wysiwyg row">
             <div class="col-sm-12">
-                <p class="mbr-footer__copyright"></p><p>Copyright &copy 2018 <a href="https://gridgum.com/themes/category/computer-repair/" target="_blank">Computer Repair Templates</a></p><p></p>
+                <p class="mbr-footer__copyright"></p><p>Copyright &copy 2018 <a href="https://gridgum.com/themes/category/computer-repair/" target="_blank"></a></p><p></p>
             </div>
         </div>
     </div>

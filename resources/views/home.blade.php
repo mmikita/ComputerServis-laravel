@@ -89,21 +89,35 @@
                             <h2 class="mbr-header__text">Zgłoś usterkę - skontaktujemy się z tobą!</h2>
                         </div>
                         <div data-form-alert="true"></div>
-                        <form action="#" method="post" data-form-title="CONTACT FORM">
+                        <form action="{{ route('custRepair') }}" method="post" data-form-title="CONTACT FORM">
+                            {{ csrf_field() }}
                             <input type="hidden" value="" data-form-email="true">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                                <input type="text" class="form-control" name="customerFirstName" required="" placeholder="imię*" data-form-field="customerFirstName">
+                            </div>
+                                  <div class="form-group">
+                                <input type="text" class="form-control" name="customerLastName" required="" placeholder="nazwisko*" data-form-field="customerLastName">
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                                <input type="email" class="form-control" name="customerEmail" required="" placeholder="email*" data-form-field="customerEmailEmail">
                             </div>
                             <div class="form-group">
-                                <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                                <input type="tel" class="form-control" name="customerPhoneNumber" placeholder="numer telefonu" data-form-field="customerPhoneNumber">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                                <input type="text" class="form-control" name="computerModel" placeholder="model komputera" data-form-field="computerModel">
                             </div>
-                            <div class="mbr-buttons mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">CONTACT US</button></div>
+                            <div class="form-group">
+                                       <textarea class="form-control" name="descriptionOfTheFault" placeholder="opis usterki" rows="7" data-form-field="descriptionOfTheFault"></textarea>
+                            </div>  <div class="row">
+                                <div class = "col-10 caption" style="color: gray;">
+                                    <p>
+                                        Pola z * są obowiązkowe, aby wysłać formularz.
+                                    </p>
+                                </div>
+                            <div class="mbr-buttons mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">Wyślij</button></div>
+                        </div>
+
                         </form>
                     </div>
                 </div>

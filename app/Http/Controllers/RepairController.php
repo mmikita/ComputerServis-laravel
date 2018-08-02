@@ -18,4 +18,13 @@ class RepairController extends Controller
         return view('repairsList') -> with('repairs', $repairs);
     }
 
+
+    public function addRepairViaCustomerForm()
+    {    
+           $repair = Repair::create(request(['descriptionOfTheFault', 'computerModel', 'customerFirstName', 'customerLastName', 'customerPhoneNumber', 'customerEmail']));
+\Session::flash('flash_message', 'twoja wiadomość została wysłana, niedługo się z Tobą skontaktujemy');
+   return view('home');
+             
+    }
+
 }

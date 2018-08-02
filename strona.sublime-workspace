@@ -1,0 +1,360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"emplo",
+				"Employee"
+			],
+			[
+				"em",
+				"employee"
+			],
+			[
+				"tt",
+				"title\tTag"
+			],
+			[
+				"make",
+				"PDF_makespotcolor"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"line",
+				"Sort Lines"
+			],
+			[
+				"reide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Snippet: ",
+				"Snippet: blade-macro"
+			],
+			[
+				"blade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/lavarell/pierwszeKroki/strona/routes/web.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Http/Controllers/RepairController.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/info.php",
+		"/D/lavarell/pierwszeKroki/strona/strona.sublime-project",
+		"/D/lavarell/pierwszeKroki/projekt.sublime-workspace",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/layouts/mainLayout.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/home.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/database/migrations/2018_07_24_143551_create_repairs_table.php",
+		"/D/lavarell/pierwszeKroki/strona/public/assets/multip/css/mbr-additional.css",
+		"/D/lavarell/pierwszeKroki/strona/database/seeds/RepairsTableSeeder.php",
+		"/D/lavarell/pierwszeKroki/strona/public/assets/bootstrap/css/bootstrap.min.css",
+		"/D/Sublime Text 3/Packages/User/Default (OSX).sublime-mousemap",
+		"/D/lavarell/pierwszeKroki/strona/public/assets/multip/css/style.css",
+		"/D/lavarell/pierwszeKroki/strona/public/js/app.js",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/auth/register.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/assets/js/app.js",
+		"/D/lavarell/pierwszeKroki/strona/app/Http/Controllers/EmployeeController.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Employee.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/auth/login.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/addEmployee.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Http/Middleware/Admin.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Http/Middleware/employee.php",
+		"/D/lavarell/pierwszeKroki/strona/routes/channels.php",
+		"/D/lavarell/pierwszeKroki/strona/routes/api.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Http/Controllers/Auth/RegisterController.php",
+		"/D/lavarell/pierwszeKroki/strona/database/seeds/EmployeesTableSeeder.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Http/Controllers/Auth/LoginController.php",
+		"/D/lavarell/pierwszeKroki/strona/database/migrations/2018_07_24_143533_create_employees_table.php",
+		"/D/lavarell/pierwszeKroki/strona/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/json/generateRepairs.json",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/repairsList.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/welcome.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/layouts/app.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/employeesList.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/layouts/admin.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/resources/views/employeeList.blade.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Repair.php",
+		"/D/lavarell/pierwszeKroki/strona/database/seeds/DatabaseSeeder.php",
+		"/D/lavarell/pierwszeKroki/strona/database/seeds/RepairSeeder.php",
+		"/D/lavarell/pierwszeKroki/strona/database/seeds/EmployeeSeeder.php",
+		"/D/lavarell/pierwszeKroki/strona/app/Console/Kernel.php",
+		"/D/lavarell/pierwszeKroki/strona/config/auth.php",
+		"/D/lavarell/pierwszeKroki/strona/webpack.mix.js",
+		"/D/lavarell/pierwszeKroki/strona/.env",
+		"/D/lavarell/pierwszeKroki/strona/composer.lock",
+		"/D/lavarell/pierwszeKroki/strona/app/Providers/AppServiceProvider.php",
+		"/D/lavarell/pierwszeKroki/strona/database/migrations/2018_07_24_143129_create_naprawas_table.php",
+		"/C/xampp/htdocs/strona/config/database.php",
+		"/C/xampp/htdocs/strona/config/app.php",
+		"/C/xampp/htdocs/strona/routes/web.php",
+		"/C/xampp/htdocs/strona/vendor/autoload.php",
+		"/C/xampp/htdocs/strona/package.json",
+		"/C/xampp/htdocs/strona/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php",
+		"/C/xampp/htdocs/strona/.env",
+		"/C/xampp/htdocs/strona/database/migrations/2018_07_24_085239_create_pracowniks_table.php",
+		"/C/xampp/htdocs/strona/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/strona/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/C/xampp/htdocs/strona/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/strona/app/Http/Controllers/contactController.php",
+		"/C/xampp/htdocs/strona/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/strona/app/pracownik.php",
+		"/C/xampp/htdocs/strona/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/strona/artisan",
+		"/C/xampp/htdocs/strona/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesJobs.php",
+		"/C/xampp/htdocs/strona/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/C/xampp/htdocs/strona/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/C/xampp/htdocs/strona/vendor/mockery/mockery/tests/Mockery/Fixtures/SemiReservedWordsAsMethods.php",
+		"/C/xampp/htdocs/strona/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/style.css",
+		"/C/xampp/htdocs/strona/vendor/filp/whoops/src/Whoops/Resources/js/clipboard.min.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"form",
+			"mbr-brand__name",
+			"menu",
+			"74",
+			"mbr-brand__name",
+			"text-another",
+			"hover",
+			"mbr-brand",
+			"mbr-brand__name",
+			"subscib",
+			"scroll",
+			"engine",
+			");\n",
+			"],\n",
+			"employees",
+			"user4",
+			"user",
+			"users",
+			"@layout('name')\n",
+			"></"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "strona.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.812951807229,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
