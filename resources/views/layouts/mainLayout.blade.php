@@ -63,12 +63,11 @@
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
                         <div class="mbr-navbar__column">
                             <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active">
-                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#features1-75">Strona główna</a></li>
-                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#features1-75">O nas</a></li>
-                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#msg-box3-81">Artykuły</a></li>
-                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#pricing-table1-86">Cennik</a></li>
+                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#menu-74">Strona główna</a></li>
+                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#msg-box5-79">O nas</a></li>
+                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#costs">Cennik</a></li>
                                 <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#testimonials1-88">Zgłoś usterkę</a></li>
-                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#form1-89">Kontakt</a></li>
+                                <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-another" href="#contacts2-90">Kontakt</a></li>
                             </ul></div>
                     </nav>
                 </div>
