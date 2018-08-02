@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Input;
 
 
 
-class EmployeeController extends Controller
+class AdminEmployeeController extends Controller
 {
 
 public function __construct()

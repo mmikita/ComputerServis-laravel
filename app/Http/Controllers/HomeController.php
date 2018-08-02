@@ -30,4 +30,12 @@ class HomeController extends Controller
 
         return view('costs');
     }
+  public function adminHome()
+    {
+
+        return view('adminHome');
+    }
+
+
+
 }

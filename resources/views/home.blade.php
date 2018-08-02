@@ -9,7 +9,7 @@
                 <div class="row"><div class=" col-sm-6">
                     <div class="mbr-hero animated fadeInUp">
                         <h1 class="mbr-hero__text">PC Start - Serwis Komputerowy</h1>
-                        <p class="mbr-hero__subtext">Twój laptop nie włącza się? Potrzebujesz laptopa pilnie do pracy? A może Twój laptop upadł lub został zalany? Skontaktuj się z nami! <br></p>
+                        <p class="mbr-hero__subtext">Masz problem z laptopem? Twój laptop jest pilnie potrzebny? Jeśli został zalany, skontaktuj się z nami jak najszybciej! Zadzwoń lub napisz do nas! <br></p>
                     </div>
                     <div class="mbr-buttons btn-inverse mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger" href="#">Zadzwoń do nas!</a> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#">Napisz do nas!</a></div>
                 </div></div>
