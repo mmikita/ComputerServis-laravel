@@ -8,7 +8,7 @@
     <title>System serwisu komputerowego</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
   <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{asset('assets/multip/css/style.css')}}">
@@ -22,16 +22,17 @@
  
       <div>
 
-        <img src="assets/images/logo.png" width="90px" class="mbr-navbar__brand-link " style="position: absolute; z-index: 500; padding-left: 5px; padding-top: 3px"  />
+        <img src="/assets/images/logo.png" width="90px" class="mbr-navbar__brand-link " style="position: absolute; z-index: 500; padding-left: 5px; padding-top: 3px"  />
       </div>
   
     <nav class="navbar navbar-default">
       <div class="container-fluid" style="margin-left: 110px;">
         <ul class="nav navbar-nav">
-          <li><a href="/serwis/add">Naprawy oczekujące na zatwierdzenie</a></li>
+          <li><a href="/admin">Naprawy oczekujące na zatwierdzenie</a></li>
+          <li><a href="/admin/awaitForEmp">Naprawy oczekujące na przydział pracownika</a></li>
           <li><a href="/serwis/add">Dodaj naprawe</a></li>
           <li class="dropdown"><a class="dropdown-toggle"
-            data-toggle="dropdown" href="#">Lista napraw<span
+            data-toggle="dropdown" href="/admin/repairsList">Lista napraw<span
               class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/serwis/allRepairs">Wszystkie naprawy</a></li>
@@ -52,9 +53,10 @@
 
 
   </header>
-
+@yield('content')
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/pcStart.js"></script>
   </body>
 </html>
