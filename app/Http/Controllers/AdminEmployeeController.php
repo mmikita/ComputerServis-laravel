@@ -46,7 +46,7 @@ public function __construct()
         $employee = Employee::create(request(['firstName', 'lastName', 'password', 'email', 'role', 'phoneNumber']));
 
 
-        //return view('');
+        return redirect()->route('employees.list');
     }
 
     public function showEmployeesList()

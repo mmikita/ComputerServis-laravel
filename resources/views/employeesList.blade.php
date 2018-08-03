@@ -3,9 +3,7 @@
 
 
 
-<!--
-{{ $employees }}
--->
+
 
 <table class="table">
   <thead class="thead-dark">

@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('layouts.admin')
 @section('content')
 <div class="container"  >
     <div class="row justify-content-center">
@@ -77,7 +76,7 @@
                         <div class="form-group row">
                             <label class="col-md-4 col-form-label text-md-right">Rola</label>
                             <div  class="col-md-6">
-                                <select class="form-control"  name='role' id=”role>
+                                <select name='role' id=”role>
                                     <option value='employee'>pracownik</option>
                                     <option value='admin'>administrator</option>
                                 </select>

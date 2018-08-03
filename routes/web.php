@@ -15,15 +15,17 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/admin/addEmployee', 'AdminEmployeeController@addEmployee');
 Route::get('/admin/awaitForEmp', 'AdminRepairsController@awaitingForEmpRepairs');
-Route::get('/admin', 'AdminRepairsController@awaitingRepairs');
+Route::get('/admin', 'AdminRepairsController@awaitingRepairs')->name('admin');
+Route::get('/admin/editRepair', 'AdminRepairsController@updateRepairGET');
 
-Route::post('/admin/updateRepair', 'AdminRepairsController@updateRepair');
+Route::post('/admin/editRepair', 'AdminRepairsController@updateRepairPOST');
+Route::post('/admin/updateRepair', 'AdminRepairsController@updateRepairStatus');
 
-
+Route::post('/admin/updateRepairEmp', 'AdminRepairsController@updateRepairEmployee');
 Route::post('/admin/addEmployee','AdminEmployeeController@store')->name('employee.add');
 Route::post('/addRepairViaCustomerForm','AdminRepairsController@addRepairViaCustomerForm')->name('custRepair');
 Route::get('/cennik','HomeController@costs');
-Route::get('/admin/employeesList','AdminEmployeeController@showEmployeesList')->name('employees.add');
+Route::get('/admin/employeesList','AdminEmployeeController@showEmployeesList')->name('employees.list');
 Route::get('/admin/repairsList','AdminRepairsController@showRepairsList')->name('employees.add');
 Route::get('/admin/logout', 'Auth\LoginController@logout');
 

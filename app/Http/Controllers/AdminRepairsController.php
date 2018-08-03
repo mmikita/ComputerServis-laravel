@@ -53,7 +53,7 @@ public function __construct()
  
     }
 
-         public function updateRepair(Request $request)
+         public function updateRepairStatus(Request $request)
     {
        
         $id = $request->input('id');
@@ -63,5 +63,29 @@ public function __construct()
         $repair->save();
         return back();
     }
+
+      public function updateRepairEmployee(Request $request)
+    {
+        $RepairId = $request->input('id');
+        $NewEmpId = $request->input('empId');
+        $repair = Repair::where('id', $RepairId)->first();
+        $NewEmp = Employee::where('id', $NewEmpId)->first();
+        $repair-> employee_id = $NewEmp->id;
+        $repair->save();
+        return back();
+    }
+
+        public function updateRepairGET(Request $request){
+        $id = $request->input('id');
+        echo $id;
+        return view('editRepair')->with('id', $id);
+    }
+      public function updateRepair(Request $request){
+
+        return redirect()->route('admin');
+
+    }
+
+
 
 }

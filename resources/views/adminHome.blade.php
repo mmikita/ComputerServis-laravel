@@ -45,19 +45,21 @@
       <td>{{$repair->created_at}}</td>
           <td>
           <!-- szybka zmiana stanu -->
-          <form  method="post" action="/admin/updateRepair">
+          <form  method="post" action="/admin/updateRepairEmp">
                                  {{csrf_field()}}
           <input id="id" name="id" type="hidden" value="{{$repair->id}}" /> 
-       <select  name="item_id">
+       <select  name='empId'  onchange="this.form.submit()">
    
     @foreach($employees as $emp)
-      <option value="{{$emp->id}}" {{ $emp->id === $repair->employee['id'] ? 'selected' : ''}}>{{$emp->firstName}} {{$emp->lastName}}</option>
+
+      <option value='{{$emp->id}}' {{ $emp->id === $repair->employee['id'] ? 'selected' : ''}}>{{$emp->firstName}} {{$emp->lastName}}</option>
+
     @endforeach
 
   </select>
           </form>
         </td>
-      <td>klik</td>
+      <td><a href="/admin/editRepair?id={{$repair->id}}">Click</a></td>
       <td>klik</td>
     </tr>
 @endforeach
