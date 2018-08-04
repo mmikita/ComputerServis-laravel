@@ -77,12 +77,20 @@ public function __construct()
 
         public function updateRepairGET(Request $request){
         $id = $request->input('id');
-        echo $id;
-        return view('editRepair')->with('id', $id);
-    }
-      public function updateRepair(Request $request){
+        $repair = Repair::where('id', $id)->first();
+                $employees = Employee::all();
 
-        return redirect()->route('admin');
+        
+        return view('editRepair')->with('repair', $repair)-> with('employees', $employees);
+    }
+      public function updateRepairPOST(Request $request){
+
+    $id = $request->input('id');
+        $repair = Repair::where('id', $id)->first();
+        $input = $request->all();
+$repair ->fill($input);
+$repair -> save();
+        return  redirect('admin');
 
     }
 

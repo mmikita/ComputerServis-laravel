@@ -18,10 +18,10 @@ class CreateRepairsTable extends Migration
             $table->string('computerModel');
             $table->LONGTEXT('descriptionOfTheFault');
             $table->string('status');
-            $table->string('CustomerFirstName');
-            $table->string('CustomerLastName');
-            $table->string('CustomerPhoneNumber');
-            $table->string('CustomerEmail');
+            $table->string('customerFirstName');
+            $table->string('customerLastName');
+            $table->string('customerPhoneNumber');
+            $table->string('customerEmail');
             $table->LONGTEXT('comment');
             $table->integer('employee_id')->unsigned();
             $table->timestamps();
