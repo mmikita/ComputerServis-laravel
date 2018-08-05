@@ -28,24 +28,43 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid" style="margin-left: 110px;">
         <ul class="nav navbar-nav">
-          <li><a href="/admin">Naprawy oczekujące na zatwierdzenie</a></li>
+          <li><a href="/admin">Zgłoszenia napraw</a></li>
           <li><a href="/admin/awaitForEmp">Naprawy oczekujące na przydział pracownika</a></li>
-          <li><a href="/serwis/add">Dodaj naprawe</a></li>
+          <li><a href="/admin/addRepair">Dodaj naprawe</a></li>
           <li class="dropdown"><a class="dropdown-toggle"
-            data-toggle="dropdown" href="/admin/repairsList">Lista napraw<span
+            data-toggle="dropdown" href="/admin/repairsList">Reszta napraw<span
               class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="/serwis/allRepairs">Wszystkie naprawy</a></li>
-              <li><a href="/serwis/filterByStatus/oczekujaca">Oczekujące
-                  naprawy</a></li>
-              <li><a href="/serwis/filterByStatus/w trakcie">Bieżące
-                  naprawy</a></li>
-              <li><a href="/serwis/filterByStatus/zakonczona">Zakonczone
-                  naprawy</a></li>
-              <li><a href="/serwis/filterByStatus/nieodbyta">Nieodbyte
-                  naprawy</a></li>
-            </ul></li>
+              <li><a href="/admin/allRepairs">Wszystkie naprawy</a></li>
+              <li><a href="/admin/currentRepairs">W trakcie</a></li>
+              <li><a href="/admin/completedRepairs">Zakończone</a></li>
+              <li><a href="/admin/rejectedRepairs">Odrzucone</a></li>
+              <li><a href="/admin/problematicRepairs">Naprawy z nieprzewidzianymi problemami</a></li>
+            </ul>
+          </li>
+                 <li class="dropdown"><a class="dropdown-toggle"
+            data-toggle="dropdown" href="/admin/employeesList">Pracownicy<span
+              class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/admin/employeesList">Lista pracowników</a></li>
+              <li><a href="/admin/addEmployee">Dodaj pracownika</a></li>
+</li>
+            </ul>
+          </li>
+
           <li><a href="/serwis/notes">Notatki</a></li>
+          <li>
+<form method="POST" action="/admin/searchRepair" class="form-inline">
+   @csrf
+    <input name='searchInfo' type="text" placeholder="Szukaj naprawy" style="  float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;"></li>
+        <button class="btn btn-primary">szukaj</button>
+
+
+  </form>
         </ul>
       </div>
     </nav>

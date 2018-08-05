@@ -24,12 +24,7 @@ class HomeController extends Controller
         return view('home');
     }
 
-        public function costs()
-    {
-        echo "heh";
 
-        return view('costs');
-    }
   public function adminHome()
     {
 
