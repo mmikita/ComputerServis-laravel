@@ -25,8 +25,13 @@ Route::get('/admin/completedRepairs',   'AdminRepairsController@showCompletedRep
 Route::get('/admin/rejectedRepairs',   'AdminRepairsController@showRejectedRepairs');
 Route::get('/admin/problematicRepairs',   'AdminRepairsController@showProblematicRepairs');
 Route::get('/admin/employeesList','AdminEmployeeController@showEmployeesList')->name('employees.list');
+Route::get('/admin/editEmployee','AdminEmployeeController@editEmployeeGET');
+Route::get('/admin/deleteEmployee','AdminEmployeeController@deleteEmployee');
+Route::get('/admin/editPassword','AdminEmployeeController@editPasswordGET');
 
 
+Route::post('/admin/editPassword','AdminEmployeeController@editPasswordPOST');
+Route::post('/admin/editEmployee','AdminEmployeeController@editEmployeePOST');
 Route::post('/admin/editRepair', 'AdminRepairsController@updateRepairPOST');
 Route::post('/admin/addRepair',   'AdminRepairsController@addRepairPOST');
 Route::post('/admin/updateRepair', 'AdminRepairsController@updateRepairStatus');
@@ -38,6 +43,7 @@ Route::post('/admin/searchRepair','AdminRepairsController@searchRepair');
 
 Route::get('/admin/repairsList','AdminRepairsController@showRepairsList')->name('employees.add');
 Route::get('/admin/logout', 'Auth\LoginController@logout');
+Route::get('/logout', 'Auth\LoginController@logout');
 
 
 

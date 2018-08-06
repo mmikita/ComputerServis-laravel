@@ -3,9 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Middleware\Admin;
+use Illuminate\Support\Facades\DB;
+use App\Repair;
 use App\Employee;
-use Illuminate\Support\Facades\Input;
+use App\Http\Middleware\Admin;
+use App\Http\Requests;
+
 
 
 
@@ -56,5 +59,66 @@ public function __construct()
         return view('employeesList') -> with('employees',$employees);
 
     }
+
+
+    public function editEmployeeGET(Request $request)
+    {
+
+    $id = $request->input('id');
+    $employee = Employee::where('id', $id)->first();
+    return view('editEmployee')->with('employee', $employee);        
+
+    }
+
+public function editEmployeePOST(Request $request){
+       $id = $request->input('id');
+    $employee = Employee::firstOrFail($id);
+    $input = $request->all();
+$employee ->fill($input);
+    $employee -> save();
+    return  back();
+}
+
+public function deleteEmployee(Request $request){
+
+    $id = $request->input('id');
+    $employee = Employee::where('id', $id)->first();
+    $employee->delete();
+    return back();
+
+}
+
+
+
+  public function editPasswordGET(Request $request)
+    {
+
+    $id = $request->input('id');
+    $employee = Employee::where('id', $id)->first();
+    return view('editPassword')->with('employee', $employee);        
+
+    }
+
+public function editPasswordPOST(Request $request){
+    $id = $request->input('id');
+    $employee = Employee::where('id', $id)->first();;
+  
+    $employee->password = $request->get('password');
+    $employee -> save();
+    $employees = Employee::all();
+    return view('employeesList') -> with('employees',$employees);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
