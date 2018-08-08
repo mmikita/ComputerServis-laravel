@@ -13,6 +13,9 @@ class RepairsTableSeeder extends Seeder
     {
 
     $path = resource_path() .'\json\generateRepairs.json'; 
+
+//uncomment to seed examples repairs 
+/* 
         $json = json_decode(file_get_contents($path), true); 
         $string = file_get_contents($path);
         $string = preg_replace("/[\r\n]+/", " ", $string);
@@ -34,6 +37,6 @@ class RepairsTableSeeder extends Seeder
         $Repair -> save();  
         $i++;
         }
-
+*/
     }
 }

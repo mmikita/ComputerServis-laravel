@@ -11,15 +11,28 @@ class EmployeesTableSeeder extends Seeder
      */
     public function run()
     {
-         for ($i=0; $i < 5; $i++) { 
         $Employee = new \App\Employee();
-        $Employee-> firstName = 'janek'.$i;
-        $Employee-> lastName = 'janek'.$i;
-        $Employee-> phoneNumber = '321'.$i;
-        $Employee-> password = '123'.$i;
-        $Employee-> email = '123@gmail.com'.$i;
+        $Employee-> firstName = 'Tomasz';
+        $Employee-> lastName = 'Jankowski';
+        $Employee-> phoneNumber = '+48 000 000 000';
+        $Employee-> password = '123';
+        $Employee-> email = 'admin@admin.com';
         $Employee-> role = 'admin';
         $Employee -> save();     
-           }
+           
+    
+        $Employee = new \App\Employee();
+        $Employee-> firstName = 'Jan';
+        $Employee-> lastName = 'Kowalski';
+        $Employee-> phoneNumber = '+48 111 000 000';
+        $Employee-> password = '123';
+        $Employee-> email = 'jan@gmail.com';
+        $Employee-> role = 'employee';
+        $Employee -> save();
+
+
+
     }
+
+
 }
