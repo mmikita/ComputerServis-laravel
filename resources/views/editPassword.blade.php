@@ -8,41 +8,26 @@
                 <div class="card-body">
                     <form method="POST" action="/admin/editPassword">
                         @csrf
-
                         <input type="hidden" name="id" value='{{$employee->id}}'>
-
                             <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Nowe hasło') }}</label>
-
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
-
-                                @if ($errors->has('password'))
+                                <input id="password" type="text" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+            @if ($errors->has('password'))
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $errors->first('powtórz nowe hasło') }}</strong>
                                 </span>
                                 @endif
                             </div>
                         </div>
-
-
-                        <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Powtórz hasło') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-                            </div>
-                        </div>
-
                               <div class="form-group row mb-0 ">
                         <div class="col-md-6 offset-md-8 ">
                             <button type="submit" class="btn btn-primary" style="margin-bottom: 8px; 
-">
-                                {{ __('Zmień') }}
+">                                {{ __('Zmień') }}
                             </button>
                         </div>
                     </div>
-    </form>
+                      </form>
 </div>
 </div>
 </div>

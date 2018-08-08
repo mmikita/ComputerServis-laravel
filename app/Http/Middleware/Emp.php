@@ -3,8 +3,9 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Http\Response;
 
-class Employee
+class Emp
 {
     /**
      * Handle an incoming request.
@@ -16,11 +17,11 @@ class Employee
     public function handle($request, Closure $next)
     {
         if 
-         ($request->user() && ($request->user()->role != 'admin'||$request->user()->role != 'employee'))
+         ($request->user() && ($request->user()->role != 'employee'))
         {
             return redirect('');
         }
         return $next($request);
     }
 }
-}
+

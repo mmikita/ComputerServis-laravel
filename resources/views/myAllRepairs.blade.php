@@ -54,7 +54,6 @@
           <input id="id" name="id" type="hidden" value="{{$repair->id}}" /> 
        <select  name='empId'  onchange="this.form.submit()">
    
-    <option name='id' value='0' {{ $repair->employee_id === 0 ? 'selected' : ''}}></option>
     @foreach($employees as $emp)
 
       <option value='{{$emp->id}}' {{ $emp->id === $repair->employee['id'] ? 'selected' : ''}}>{{$emp->firstName}} {{$emp->lastName}}</option>

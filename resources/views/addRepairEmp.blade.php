@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.employee')
 
 
 @section('content')
@@ -10,7 +10,7 @@
 
 
 
-                    <form method="POST" action="/admin/addRepair">
+                    <form method="POST" action="/employee/addRepair">
                         @csrf
                                   <input id="id" name="id" type="hidden" class="form-control">
                         <div class="form-group row">
@@ -68,22 +68,6 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-group row" style="padding-top: 5px">
-                       <label for="employee_id" class="col-md-4 col-form-label text-md-right">{{ __('pracownik') }}</label> 
-
-
-                       <div class="col-md-6">
-                          <select  name='employee_id'>
-
-                            @foreach($employees as $emp)
-
-                            <option value='{{$emp->id}}'>{{$emp->firstName}} {{$emp->lastName}}</option>
-
-                            @endforeach
-
-                        </select>
-                    </div>
-                </div>
                 <div class="form-group row">
                     <label for="descriptionOfTheFault" class="col-md-4 col-form-label text-md-right">{{ __('opis usterki') }}</label>
 

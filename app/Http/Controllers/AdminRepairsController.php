@@ -71,8 +71,7 @@ public function updateRepairEmployee(Request $request)
     $RepairId = $request->input('id');
     $NewEmpId = $request->input('empId');
     $repair = Repair::where('id', $RepairId)->first();
-    $NewEmp = Employee::where('id', $NewEmpId)->first();
-    $repair-> employee_id = $NewEmp->id;
+    $repair-> employee_id =  $NewEmpId;
     $repair->save();
     return back();
 }
@@ -105,14 +104,15 @@ public function deleteRepair(Request $request){
 
 
 public function addRepairGET(){
+
     $employees = Employee::all();
 
-    return view('addRepair')-> with('employees', $employees);
+    return view('addRepair')-> with('employees', $employees);;
 }
 
 public function addRepairPOST()
 {    
-   $repair = Repair::create(request(['descriptionOfTheFault', 'computerModel', 'customerFirstName', 'customerLastName', 'customerPhoneNumber', 'customerEmail', 'employee_id', 'comment']));
+   $repair = Repair::create(request(['descriptionOfTheFault', 'computerModel', 'customerFirstName', 'customerLastName', 'customerPhoneNumber', 'customerEmail', 'employee_id', 'comment', 'status']));
    return back();
 
 }
@@ -154,7 +154,9 @@ public function searchRepair(Request $request)
 {   
     $s = $request->input('searchInfo');
     $employees = Employee::all();
+
     $repairs = Repair::join('employees', 'employees.id', '=', 'repairs.employee_id')
+    ->select('repairs.*')
     ->where('customerFirstName', 'LIKE', '%' . $s . '%')
     ->orWhere('customerLastName', 'LIKE', '%' . $s . '%')
     ->orWhere('customerEmail', 'LIKE', '%' . $s . '%')
@@ -167,6 +169,7 @@ public function searchRepair(Request $request)
     ->orWhere('employees.lastName', 'LIKE', '%' . $s . '%')
     ->orWhere('employees.role', 'LIKE', '%' . $s . '%')
     ->orWhere('employees.email', 'LIKE', '%' . $s . '%')
+    ->orderBy('repairs.id', 'asc')
     ->paginate(20);
 
     return view('repairsList') -> with('repairs', $repairs)-> with('employees', $employees);

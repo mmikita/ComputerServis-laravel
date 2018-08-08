@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.employee')
 
 @section('content')
 
@@ -12,22 +12,29 @@
       <th scope="col" width="75%">uwagi</th>
       <th scope="col">klient-kontakt</th>
       <th scope="col">imie naziwsko klienta</th>
-  
-      <th scope="col">Pracownik(przydziel)</th>
-      <th scope="col">Edytuj</th>
-      <th scope="col">Usuń</th>
+  <th scope="col"> status</th>
+      <th scope="col">Odrzuć naprawę</th>
+      <th scope="col">Zakończ naprawę</th>
+      <th scope="col">Edytuj naprawę</th>
           <th scope="col">Data rozpoczęcia</th>
     </tr>
 </thead>
 <tbody>
-  	   @foreach($repairs as $repair)
+       @foreach($repairs as $repair)
     <tr>
       <td>{{$repair->id}}</td>
       <td>{{$repair->computerModel}}</td>
       <td>{{$repair->descriptionOfTheFault}}</td>
     <td>
+
+         {{$repair->status}}
+        </td>
+      <td>{{$repair->comment}}</td>
+      <td>tel: {{$repair->customerPhoneNumber}} <br> email: {{$repair->customerEmail}} </td>
+      <td>{{$repair->customerFirstName}} {{$repair->customerLastName}} </td>
+         <td>
           <!-- szybka zmiana stanu -->
-          <form  method="post" action="/admin/updateRepair">
+          <form  method="post" action="/employee/changeRepairStatus">
                                  {{csrf_field()}}
 
             <input id="id" name="id" type="hidden" value="{{$repair->id}}" /> 
@@ -43,29 +50,12 @@
               </select>
           </form>
         </td>
-      <td>{{$repair->comment}}</td>
-      <td>tel: {{$repair->customerPhoneNumber}} <br> email: {{$repair->customerEmail}} </td>
-      <td>{{$repair->customerFirstName}} {{$repair->customerLastName}} </td>
     
-          <td>
-          <!-- szybka zmiana stanu -->
-          <form  method="post" action="/admin/updateRepairEmp">
-                                 {{csrf_field()}}
-          <input id="id" name="id" type="hidden" value="{{$repair->id}}" /> 
-       <select  name='empId'  onchange="this.form.submit()">
-   
-    <option name='id' value='0' {{ $repair->employee_id === 0 ? 'selected' : ''}}></option>
-    @foreach($employees as $emp)
-
-      <option value='{{$emp->id}}' {{ $emp->id === $repair->employee['id'] ? 'selected' : ''}}>{{$emp->firstName}} {{$emp->lastName}}</option>
-
-    @endforeach
-
-  </select>
-          </form>
-        </td>
-      <td><a href="/admin/editRepair?id={{$repair->id}}">Edytuj</a></td>
-      <td><a href="/admin/deleteRepair?id={{$repair->id}}" onclick="return confirm('Jesteś pewny?')">Usuń</a></td>
+  
+      <td><a href="/employee/rejectRepair?id={{$repair->id}}">Odrzuć</a></td>
+      <td><a href="/employee/finishRepair?id={{$repair->id}}">Zakończ</a></td>
+      <td><a href="/employee/editRepair?id={{$repair->id}}">Edytuj</a></td>
+     
         <td>{{$repair->created_at}}</td>
     </tr>
 @endforeach
