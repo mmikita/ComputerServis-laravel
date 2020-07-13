@@ -74,7 +74,7 @@ public function editEmployeePOST(Request $request){
        $id = $request->input('id');
     $employee = Employee::firstOrFail($id);
     $input = $request->all();
-$employee ->fill($input);
+    $employee ->fill($input);
     $employee -> save();
     return  back();
 }

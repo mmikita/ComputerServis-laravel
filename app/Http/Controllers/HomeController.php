@@ -3,6 +3,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Employee;
 use App\Repair;
+use Artisan;
+
 
 
 class HomeController extends Controller
@@ -29,6 +31,16 @@ class HomeController extends Controller
     {
 
         return view('adminHome');
+    }
+
+    public function seed()
+    {
+Artisan::call('migrate', array('--force' => true));
+Artisan::call('db:seed');
+
+
+
+        return view('home');
     }
 
 

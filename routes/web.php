@@ -14,6 +14,7 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/admin/addEmployee', 'AdminEmployeeController@addEmployee');
+Route::get('/seed', 'HomeController@seed')->name('home');
 Route::get('/admin/awaitForEmp', 'AdminRepairsController@awaitingForEmpRepairs');
 Route::get('/admin', 'AdminRepairsController@awaitingRepairs')->name('admin');
 Route::get('/admin/editRepair', 'AdminRepairsController@updateRepairGET');
